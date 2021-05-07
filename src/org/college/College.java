@@ -20,6 +20,8 @@ System.out.println("collegeName-Srm,collegeCode-4128,collegeRank-15");
 		Dept d= new Dept();
 		d.deptName();
 		
+		System.out.println("CollegeInformation");
+		
 		
 	}
 }
