@@ -22,6 +22,8 @@ System.out.println("collegeName-Srm,collegeCode-4128,collegeRank-15");
 		
 		System.out.println("CollegeInformation");
 		
+		System.out.println("pull request");
+		
 		
 	}
 }
