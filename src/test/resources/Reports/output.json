@@ -1,0 +1,421 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1274200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Verify the login with valid credentials",
+        "description": "",
+        "id": "verifing-the-adactin-webpage;verify-the-login-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 419787300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9253222601,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is in Adactin page",
+            "match": {
+              "location": "AdactinSteps.user_is_in_Adactin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 370365200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"chrisgreen10\" and \"ipl2021csk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrisgreen10\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"ipl2021csk\"",
+                  "offset": 31
+                }
+              ],
+              "location": "AdactinSteps.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2800074399,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks login button",
+            "match": {
+              "location": "AdactinSteps.user_clicks_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 213600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User verify sucess message",
+            "match": {
+              "location": "AdactinSteps.user_verify_sucess_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Hotelfunctionality"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 156200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Verify the search hotel page",
+        "description": "",
+        "id": "verifing-the-adactin-webpage;verify-the-search-hotel-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 354785500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 701706700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User Select \"Sydney\"and\"Hotel Creek\"and\"Standard\"and\"1 - One\"and\"1 - One\"and\"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 76
+                }
+              ],
+              "location": "AdactinSteps.user_Select_and_and_and_and_and(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3913739800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User click search button",
+            "match": {
+              "location": "AdactinSteps.user_click_search_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Hotelfunctionality"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 104300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Verify the Select Hotel Page",
+        "description": "",
+        "id": "verifing-the-adactin-webpage;verify-the-select-hotel-page",
+        "after": [
+          {
+            "result": {
+              "duration": 298265500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 80175600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User select the hotel",
+            "match": {
+              "location": "AdactinSteps.user_select_the_hotel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3719692201,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click the continue button",
+            "match": {
+              "location": "AdactinSteps.user_click_the_continue_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Hotelfunctionality"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 110901,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Verify the search hotel page",
+        "description": "",
+        "id": "verifing-the-adactin-webpage;verify-the-search-hotel-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 305194600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 958292500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User enter \"chris\"and\"green10\"and\"Chennai\"and\"1234567890123456\"and\"VISA\"and\"January\"and\"2022\"and\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chris\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"green10\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"Chennai\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"1234567890123456\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"January\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 87
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 96
+                }
+              ],
+              "location": "AdactinSteps.user_enter_and_and_and_and_and_and_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10078147799,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User click booknow button",
+            "match": {
+              "location": "AdactinSteps.user_click_booknow_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Hotelfunctionality"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 129100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Verify booking confirmation page",
+        "description": "",
+        "id": "verifing-the-adactin-webpage;verify-booking-confirmation-page",
+        "after": [
+          {
+            "result": {
+              "duration": 308581200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8509600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User is in bokoking confirmation page",
+            "match": {
+              "location": "AdactinSteps.user_is_in_bokoking_confirmation_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3504941400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User clicks logout button",
+            "match": {
+              "location": "AdactinSteps.user_clicks_logout_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Hotelfunctionality"
+          }
+        ]
+      }
+    ],
+    "name": "verifing the adactin webpage",
+    "description": "",
+    "id": "verifing-the-adactin-webpage",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature Files/Adactin.feature",
+    "tags": [
+      {
+        "name": "@Hotelfunctionality",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

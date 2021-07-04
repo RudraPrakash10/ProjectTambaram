@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="37.082814">
+<testcase classname="verifing the adactin webpage" name="Verify the login with valid credentials" time="12.8487">
+<system-out><![CDATA[Given User is in Adactin page...............................................passed
+When User enters "chrisgreen10" and "ipl2021csk"............................passed
+And User clicks login button................................................passed
+Then User verify sucess message.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="verifing the adactin webpage" name="Verify the search hotel page" time="4.970805">
+<system-out><![CDATA[When User Select "Sydney"and"Hotel Creek"and"Standard"and"1 - One"and"1 - One"and"1 - One".passed
+And User click search button................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="verifing the adactin webpage" name="Verify the Select Hotel Page" time="4.098539">
+<system-out><![CDATA[When User select the hotel..................................................passed
+And User click the continue button..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="verifing the adactin webpage" name="Verify the search hotel page" time="11.342248">
+<system-out><![CDATA[When User enter "chris"and"green10"and"Chennai"and"1234567890123456"and"VISA"and"January"and"2022"and"123".passed
+And User click booknow button...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="verifing the adactin webpage" name="Verify booking confirmation page" time="3.822522">
+<system-out><![CDATA[When User is in bokoking confirmation page..................................passed
+Then User clicks logout button..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
